@@ -1,7 +1,7 @@
 ...
 init: function () {
     var that = this;
-    $.getJSON("/photo/data.json", function (data) {
+    $.getJSON("../../../../source/photo/data.json", function (data) {
         that.render(that.page, data);
         that.scroll(data);
     });
