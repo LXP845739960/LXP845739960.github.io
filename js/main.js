@@ -17,7 +17,7 @@ addLoadEvent(function() {
 	Aside.init()
 })
 if($(".instagram").length) {
-        require(['/photo.js', '/fancybox/jquery.fancybox.js', '/js/jquery.lazyload.js'], function(obj) {
+        require(['./photo.js', '/fancybox/jquery.fancybox.js', '/js/jquery.lazyload.js'], function(obj) {
             obj.init();
         });
     }
